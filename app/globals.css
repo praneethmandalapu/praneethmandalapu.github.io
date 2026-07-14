@@ -600,8 +600,33 @@ html[data-motion="off"] .silk-canvas {
   align-items: start;
 }
 
-.work-secondary {
-  margin-top: clamp(3rem, 8vw, 7rem);
+/* Dominant lead fills a tall left column; supporting cards stack on the right. */
+.work-lead {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  align-self: stretch;
+}
+
+.work-lead .card-shell {
+  height: 100%;
+}
+
+.work-lead .card-core {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-lead .card-title {
+  font-size: clamp(2.1rem, 3.6vw, 3.1rem);
+}
+
+.work-lead .card-body {
+  margin-bottom: clamp(2rem, 6vw, 4rem);
+}
+
+.work-lead .card-link {
+  margin-top: auto;
 }
 
 .card-shell {
@@ -866,8 +891,17 @@ html[data-motion="off"] .silk-canvas {
     gap: 1.5rem;
   }
 
-  .work-secondary {
-    margin-top: 0;
+  .work-lead {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .work-lead .card-title {
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+  }
+
+  .work-lead .card-body {
+    margin-bottom: 0;
   }
 
   .honor-row {

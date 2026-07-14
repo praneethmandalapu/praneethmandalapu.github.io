@@ -178,7 +178,7 @@ One page, seven movements, each with a different composition anchor so no two co
 
 1. **Hero** — centered statement (Cinematic Center), full-viewport (`min-height: 100svh`), eyebrow + two-line name + one supporting paragraph + primary CTA pair + status line. Background is the ambient silk field (or the flat foundation color when the Motion control is set to Still); the shader keeps a calm wash at center so the type always reads.
 2. **Experience** — left-third sticky serif label, right two-thirds editorial list with hairline dividers. Top-left lead anchor.
-3. **Selected work** — asymmetric pair: one dominant Doppelrand card (SlugSync) at ~60% width offset left, one supporting card lower-right. Never equal thirds.
+3. **Selected work** — dominant lead Doppelrand card (OncoPulse) filling a tall left column at ~58% width, with two supporting cards (SlugSync, subwoofer) stacked in the right column. Never equal thirds.
 4. **Capabilities** — diptych on the raised tonal band (`{colors.ivory-raised}` / `{colors.onyx-surface}`): left serif statement, right three mono-labelled skill groups. Left-third + right-two-thirds anchor.
 5. **Education & honors** — mini section, single centered column, tight: the archival register. Small ambition on purpose (section size variety).
 6. **Contact** — bottom-anchored statement with a full-width banner-style email link (CTA shape variation from the hero's pill).

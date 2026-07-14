@@ -116,7 +116,7 @@ export default function Home() {
               {projects.map((project, i) => (
                 <Reveal
                   key={project.title}
-                  className={i === 1 ? "work-secondary" : ""}
+                  className={i === 0 ? "work-lead" : ""}
                   delay={i * 120}
                 >
                   <article className="card-shell">

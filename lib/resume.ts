@@ -35,6 +35,16 @@ export const experience = [
 
 export const projects = [
   {
+    meta: "Python · PDE modeling · Data viz — Jun 2026",
+    award: "QBI hackathon",
+    title: "OncoPulse",
+    body: "A multi-cancer tumor-growth simulator pairing PDE-based models of breast (TCGA-BRCA) and brain glioma progression with an interactive viewer that animates predicted growth over time. Built with a team over a hackathon weekend.",
+    link: {
+      label: "Open the live model",
+      href: "https://praneethmandalapu.github.io/QBIHack/",
+    },
+  },
+  {
     meta: "React · Firebase · Python — Oct 2025",
     award: "Best UI/UX — UCSC hackathon",
     title: "SlugSync",
