@@ -70,7 +70,7 @@ export default function Home() {
             </div>
             <p className="status fade-item d4">
               <span className="status-dot" aria-hidden />
-              Currently — Automation intern, California DMV
+              Currently — SWE intern, California DMV
             </p>
           </div>
         </section>

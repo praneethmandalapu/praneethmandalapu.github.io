@@ -1,6 +1,6 @@
 export const experience = [
   {
-    role: "Automation intern",
+    role: "SWE intern",
     org: "California Department of Motor Vehicles",
     place: "Remote",
     dates: "2026 — present",
